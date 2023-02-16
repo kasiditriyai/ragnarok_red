@@ -175,29 +175,28 @@ Body:
       Skill:
         Plagiarism: true
         Reproduce: true
-    Duration2: 4500
     Requires:
       SpCost:
         - Level: 1
-          Amount: 8
+          Amount: 4
         - Level: 2
-          Amount: 8
+          Amount: 5
         - Level: 3
-          Amount: 8
+          Amount: 6
         - Level: 4
-          Amount: 8
+          Amount: 7
         - Level: 5
           Amount: 8
         - Level: 6
-          Amount: 15
+          Amount: 9
         - Level: 7
-          Amount: 15
+          Amount: 10
         - Level: 8
-          Amount: 15
+          Amount: 11
         - Level: 9
-          Amount: 15
+          Amount: 12
         - Level: 10
-          Amount: 15
+          Amount: 13
       Weapon:
         Fist: true
         Dagger: true
@@ -221,7 +220,6 @@ Body:
         Shotgun: true
         Grenade: true
         Huuma: true
-    Status: Stun
   - Id: 6
     Name: SM_PROVOKE
     Description: Provoke
@@ -255,7 +253,6 @@ Body:
           Amount: 12
         - Level: 10
           Amount: 13
-    Status: Provoke
   - Id: 7
     Name: SM_MAGNUM
     Description: Magnum Break
@@ -301,8 +298,7 @@ Body:
     Duration2: 10000
     Cooldown: 2000
     Requires:
-      SpCost: 30
-    Status: Watk_Element
+      SpCost: 15
   - Id: 8
     Name: SM_ENDURE
     Description: Endure
@@ -317,23 +313,23 @@ Body:
       - Level: 1
         Time: 10000
       - Level: 2
-        Time: 13000
+        Time: 15000
       - Level: 3
-        Time: 16000
+        Time: 20000
       - Level: 4
-        Time: 19000
-      - Level: 5
-        Time: 22000
-      - Level: 6
         Time: 25000
+      - Level: 5
+        Time: 30000
+      - Level: 6
+        Time: 35000
       - Level: 7
-        Time: 28000
+        Time: 40000
       - Level: 8
-        Time: 31000
+        Time: 45000
       - Level: 9
-        Time: 34000
+        Time: 50000
       - Level: 10
-        Time: 37000
+        Time: 55000
     Duration2: 10000
     Cooldown: 10000
     Requires:
